@@ -13,7 +13,7 @@ import Grid from "@mui/material/Grid";
 const CardComponet = () => {
   return (
     <Grid container spacing={3} sx={{marginTop:'1rem'}}>
-      <Grid item md={4} xs={12} sm={6} sx={{justifyContent:'center',alignItems:'center'}}>
+      <Grid item md={6} xs={12} sm={12} lg={4} sx={{justifyContent:'center',alignItems:'center'}}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -74,7 +74,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -135,7 +135,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -196,7 +196,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -257,7 +257,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -318,7 +318,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -379,7 +379,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -440,7 +440,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -501,7 +501,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -562,7 +562,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -623,7 +623,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6} >
+      <Grid item md={6} xs={12} sm={12} lg={4} >
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -684,7 +684,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -745,7 +745,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -806,7 +806,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={
@@ -867,7 +867,7 @@ const CardComponet = () => {
           </CardContent>
         </Card>
       </Grid>
-      <Grid item md={4} xs={12} sm={6}>
+      <Grid item md={6} xs={12} sm={12} lg={4}>
         <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
           <CardHeader
             avatar={

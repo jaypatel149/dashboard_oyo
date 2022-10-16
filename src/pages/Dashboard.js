@@ -65,8 +65,8 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 
 const Dashboard = () => {
   return (
-    <Container maxWidth="lg">
-      <Grid container>
+    <Container maxWidth='xl'>
+      <Grid container sx={{display:'flex',justifyContent:'center'}}>
         <Grid
           item
           xs={3}
@@ -151,7 +151,7 @@ const Dashboard = () => {
             </nav>
           </Box>
         </Grid>
-        <Grid item xs={9} sx={{ backgroundColor: "#f5faf9" }}>
+        <Grid item xs={9} sx={{ backgroundColor: "#f5faf9"}}>
           <Container>
             <Toolbar disableGutters>
               <Typography
