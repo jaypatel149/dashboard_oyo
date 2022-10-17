@@ -1,11 +1,11 @@
-
+import React from 'react';
 import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
     <Dashboard/>
-    </div>
+    </React.Fragment>
   );
 }
 

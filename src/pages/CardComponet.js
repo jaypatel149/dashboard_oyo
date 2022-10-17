@@ -9,12 +9,28 @@ import Button from "@mui/material/Button";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import { styled} from '@mui/material/styles';
+
+const StyledCard = styled(Card)`
+  ${({ theme }) => `
+  cursor: pointer;
+  background-color: ${theme.palette};
+  transition: ${theme.transitions.create(['background-color', 'transform'], {
+    duration: theme.transitions.duration.standard,
+  })};
+  &:hover {
+    background-color: ${theme.palette};
+    transform: scale(1.1);
+  }
+  `}
+`;
+
 
 const CardComponet = () => {
   return (
     <Grid container spacing={3} sx={{marginTop:'1rem'}}>
-      <Grid item md={6} xs={12} sm={12} lg={4} sx={{justifyContent:'center',alignItems:'center'}}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{borderRadius:'10px',cursor:'pointer'}} >
           <CardHeader
             avatar={
               <Avatar
@@ -29,7 +45,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -72,10 +88,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{borderRadius:'10px',cursor:'pointer' }}>
           <CardHeader
             avatar={
               <Avatar
@@ -90,7 +106,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -133,10 +149,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -151,7 +167,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -194,10 +210,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -212,7 +228,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -255,10 +271,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -273,7 +289,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -316,10 +332,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{ maxWidth: "100%",borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -334,7 +350,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -377,10 +393,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -395,7 +411,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -438,10 +454,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{borderRadius:'10px',cursor:'pointer' }}>
           <CardHeader
             avatar={
               <Avatar
@@ -456,7 +472,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -499,10 +515,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -517,7 +533,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -560,10 +576,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -578,7 +594,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -621,10 +637,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4} >
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -639,7 +655,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -682,10 +698,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -700,7 +716,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -743,10 +759,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{ borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -761,7 +777,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -804,10 +820,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4} >
+        <StyledCard sx={{borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -822,7 +838,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -865,10 +881,10 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
-      <Grid item md={6} xs={12} sm={12} lg={4}>
-        <Card sx={{ maxWidth: "100%",borderRadius:'10px' }}>
+      <Grid item xs={12} sm={12} md={6} lg={4}>
+        <StyledCard sx={{borderRadius:'10px' ,cursor:'pointer'}}>
           <CardHeader
             avatar={
               <Avatar
@@ -883,7 +899,7 @@ const CardComponet = () => {
               </Avatar>
             }
             action={
-              <Button size="small" variant="outlined">
+              <Button size="small" variant="outlined" style={{marginTop:'10px',textTransform: "none",color:'#07e0a6'}}>
                 Submit Work
               </Button>
             }
@@ -926,7 +942,7 @@ const CardComponet = () => {
               2500
             </p>
           </CardContent>
-        </Card>
+        </StyledCard>
       </Grid>
     </Grid>
   );

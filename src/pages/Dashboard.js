@@ -69,7 +69,9 @@ const Dashboard = () => {
       <Grid container sx={{display:'flex',justifyContent:'center'}}>
         <Grid
           item
-          xs={3}
+          xs={12}
+          lg={3}
+          md={3}
           sx={{
             display: {
               xs: "none",
@@ -151,8 +153,8 @@ const Dashboard = () => {
             </nav>
           </Box>
         </Grid>
-        <Grid item xs={9} sx={{ backgroundColor: "#f5faf9"}}>
-          <Container>
+        <Grid item xs={12} md={9} lg={9} sx={{ backgroundColor: "#c7bdbe"}}>
+          <Container maxWidth='xl'>
             <Toolbar disableGutters>
               <Typography
                 variant="h6"
@@ -210,7 +212,9 @@ const Dashboard = () => {
               </Search>
             </Toolbar>
             <Divider />
-            <CardComponet />
+            <Container maxWidth='xl' >
+              <CardComponet />
+            </Container>
           </Container>
         </Grid>
       </Grid>
